@@ -64,3 +64,16 @@ Open the FoxyProxy extension and add a new proxy with the following settings:
 
 ![setup](https://github.com/user-attachments/assets/33444a26-323e-4f4d-aa83-106400552015)
 
+### 3. Certificate Setup
+
+1. In your browser, go to: `http://burp`.
+2. Download the **CA Certificate** from the page.
+3. Open your browser settings and navigate to **Manage Certificates** (or **Certificates** → **Import** in Windows).
+4. Import the downloaded Burp CA certificate into the **Trusted Root Certification Authorities** (or the equivalent store for your browser).
+5. Restart your browser to apply the changes.
+
+![step 1](https://github.com/user-attachments/assets/5b69f63f-b9c6-473e-bf7a-1b866012794c)
+*Import the certificate from here into your browser.*
+
+
+
