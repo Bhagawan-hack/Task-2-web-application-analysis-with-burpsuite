@@ -73,7 +73,20 @@ Open the FoxyProxy extension and add a new proxy with the following settings:
 5. Restart your browser to apply the changes.
 
 ![step 1](https://github.com/user-attachments/assets/5b69f63f-b9c6-473e-bf7a-1b866012794c)
+
+
+
 *Import the certificate from here into your browser.*
+
+### Step 4: Intercept a Login Request
+
+1. Go to a test login page (for example: https://practicetestautomation.com/practice-test-login/
+)
+
+2. Enter random username/password and click login.
+
+3. In Burp → Proxy → Intercept, you’ll see the login request captured.
+   
 
 
 
